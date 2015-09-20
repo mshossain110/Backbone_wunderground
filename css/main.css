@@ -1,0 +1,61 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.page-title {
+  border-bottom: 1px solid #eee;
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.page-header {
+    border: medium none;
+    float: left;
+    margin-top: 0;
+    width: 70%;
+}
+#page-title button {
+    float: right;
+    margin-top: 14px;
+    width: 30%;
+}
+
+.forecast-day {
+    border: 1px solid #eee;
+    box-shadow: 0 4px 3px 2px #777;
+    float: left;
+    margin-right: 3%;
+    padding: 7px;
+    width: 22%;
+}
+.forecast-day p {
+    float: right;
+    font-size: 22px;
+}
+.img-thumbnail {
+    width: 80px;
+}
+.forecast-conditions {
+    color: #f00;
+    font-size: 20px;
+}
+.celsius .forecast-fahr {
+  display: none;
+}.forecast-cel {
+  display: none;
+}.celsius .forecast-cel {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
