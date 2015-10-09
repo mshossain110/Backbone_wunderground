@@ -50,7 +50,7 @@ define([
 
 					});
 				}else{
-					$that.$placelist.html('<p>Sorry, there are no places to display, please add some.</p>')
+					$that.$placelist.html('<h3>Sorry, there are no places to display, please add some.</h3>'+'<h3>Please Add your place and Track Your Weather</h3>');
 				}
 				return this;
 			},

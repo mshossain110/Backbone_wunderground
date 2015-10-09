@@ -15,6 +15,7 @@ define([
 			'<div class="page-title">',
 			'<div class="page-header">',
   				'<h1><%= pageTitle %></h1>',
+  				'<p>This is a learning project. I have learnt backbonejs in this project. I have learnt healding pages, setting pages, working with others API and backbone localStorage.</p>',
 			'</div>',
 			'<button type="button" class="btn btn-primary btn-lg" id="addSettings">Settings</button>',
 			'</div>',
@@ -31,7 +32,7 @@ define([
         		'<button type="button" class="close" data-dismiss="modal" aria-label="Close" aria-hidden="true">&times;</button>',
         		'<h4 class="modal-title"><%= title %></h4>',
       			'</div>',
-      			'<div class="modal-body">Test modal</div>',
+      			'<div class="modal-body">Loding.....</div>',
       	'</div></div></div>'
 	].join('');
 
