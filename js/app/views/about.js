@@ -14,7 +14,8 @@ define([
 					 this.options = _.defaults(options || {}, this.options);
 					var pageTitle = this.options.pageTitle || '';
 					this.$el.html(Templates['title']({pageTitle : pageTitle}));
-					var $pageContent=this.$('.pageContent');
+					this.$placelist= this.$('.placelist');
+					this.render();
 					
 			},
 
@@ -26,7 +27,9 @@ define([
 				'<strong>Thanks<br/>Shahadat</strong>'
 				].join('');
 
-				this.$pageContent.html(pageContent);
+				this.$placelist.append(pageContent);
+
+				return this;
 			}
 		});
 
