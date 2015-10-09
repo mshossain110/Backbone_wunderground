@@ -24,6 +24,8 @@ define([
 				this.listenTo(this.model, "change", this.render);
 				this.$el.html(this.template());
 				this.$content= this.$('#content');
+
+				
 			},
 
 			render: function(){
@@ -63,7 +65,7 @@ define([
 				var dashBord = new Dashbord({
 					className: 'page',
 					id: 'dash-bord',
-					pageTitle: 'Dashbord page'
+					pageTitle: 'Backbone Wunderground API'
 				});
 
 				this.$content.append(dashBord.render().el);
