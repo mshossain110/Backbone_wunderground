@@ -1,0 +1,82 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+.page-title {
+  border-bottom: 1px solid #eee;
+  display: block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+.page-header {
+    border: medium none;
+    float: left;
+    margin-top: 0;
+    width: 70%;
+}
+#page-title button {
+    float: right;
+    margin-top: 14px;
+    width: 30%;
+}
+.placelist .placelistPanel {
+  float: left;
+  overflow: hidden;
+  width: 21em;
+}.placelist .placelistPanel.details {
+  clear: both;
+  width: 83em;
+}
+.forecast-day {
+  border: 1px solid #eee;
+  box-shadow: 0 4px 3px 2px #777;
+  float: left;
+  margin-right: 16px;
+  min-width: 18em;
+  padding: 7px;
+  width: 19em;
+}
+.forecast-day p {
+  display: inline;
+  font-size: 22px;
+  margin-left: 10px;
+}.panel-body {
+  padding: 15px;
+  width: 83em;
+}.placelist .placelistPanel {
+  float: left;
+  overflow: hidden;
+  width: 21em;
+  margin-right: 1em;
+}
+.img-thumbnail {
+    width: 80px;
+}
+.forecast-conditions {
+    color: #f00;
+    font-size: 20px;
+}
+.celsius .forecast-fahr {
+  display: none;
+}.forecast-day p.forecast-cel {
+  display: none;
+}.celsius .forecast-cel {
+  display: block;
+}
+#app-place {
+  clear: both;
+  display: block;
+  float: none;
+}
+
+
+
+
+
+
+
+
+
+
